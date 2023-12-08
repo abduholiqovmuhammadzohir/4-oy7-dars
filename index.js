@@ -347,38 +347,57 @@
 // regulr function
 
 // function sum(n) {
-//     let counter = 1;
+//     let res = 0
 //     for (let i = 1; i <= n ; i++) {
-//         if (n % i == 0) {
-//             counter *= i;
+//         let counter = 0;
+//         for (let j = 1; j <= i ; j++) {
+//             if (i % j == 0) {
+//                 counter++;
+//             }
 //         }
+//         if (counter == 2) {
+//             res += i
+//         }   
 //     }
-//     return counter;
+//     return res
 // }
-// console.log(sum(11));
+// console.log(sum(10));
 
 // // function expression
 
 // const sum = function(n) {
-//     let counter = 0;
+//     let res = 0
 //     for (let i = 1; i <= n ; i++) {
-//         if (n % i == 0) {
-//             counter += i
+//         let counter = 0;
+//         for (let j = 1; j <= i ; j++) {
+//             if (i % j == 0) {
+//                 counter++;
+//             }
 //         }
+//         if (counter == 2) {
+//             res += i
+//         }   
 //     }
-//     return counter
+//     return res
 // }
 // console.log(sum(10));
 
 // arrow function
 
+
 // const sum = (n) => {
-//     let counter = 0;
+//     let res = 0
 //     for (let i = 1; i <= n ; i++) {
-//         if (n % i == 0) {
-//             counter += i
+//         let counter = 0;
+//         for (let j = 1; j <= i ; j++) {
+//             if (i % j == 0) {
+//                 counter++;
+//             }
 //         }
+//         if (counter == 2) {
+//             res += i
+//         }   
 //     }
-//     return counter
+//     return res
 // }
 // console.log(sum(10));
