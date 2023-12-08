@@ -347,15 +347,15 @@
 // regulr function
 
 // function sum(n) {
-//     let counter = 0;
+//     let counter = 1;
 //     for (let i = 1; i <= n ; i++) {
 //         if (n % i == 0) {
-//             counter += i
+//             counter *= i;
 //         }
 //     }
-//     return counter
+//     return counter;
 // }
-// console.log(sum(10));
+// console.log(sum(11));
 
 // // function expression
 
